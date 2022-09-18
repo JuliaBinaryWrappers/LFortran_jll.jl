@@ -1,0 +1,20 @@
+[[LFortran]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0e1a60f0ebee9b3bed9ae081b852e4976786a33d"
+libc = "glibc"
+os = "linux"
+
+    [[LFortran.download]]
+    sha256 = "81d47a66e7ed2caf08911fa4c4d133b5793a367f1c025784350af8f1d3d8ae3c"
+    url = "https://github.com/JuliaBinaryWrappers/LFortran_jll.jl/releases/download/LFortran-v0.16.0+0/LFortran.v0.16.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[LFortran]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "6fc90b7270f76673e96422bc58862a685deec503"
+libc = "musl"
+os = "linux"
+
+    [[LFortran.download]]
+    sha256 = "71a4229bbc6dc04ec66478118f4d54c618991d24643c0a4d99b64c292fa6e5c1"
+    url = "https://github.com/JuliaBinaryWrappers/LFortran_jll.jl/releases/download/LFortran-v0.16.0+0/LFortran.v0.16.0.x86_64-linux-musl-cxx11.tar.gz"
